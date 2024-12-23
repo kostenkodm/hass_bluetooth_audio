@@ -1,0 +1,35 @@
+{
+    "title": "Bluetooth Audio",
+    "config": {
+      "step": {
+        "user": {
+          "title": "Connect a Bluetooth Device",
+          "description": "Enter the name and address of your Bluetooth audio device.",
+          "data": {
+            "device_name": "Device Name",
+            "device_address": "Device Address"
+          }
+        },
+        "discovery": {
+          "title": "Discover Bluetooth Devices",
+          "description": "Select a device from the list of discovered devices.",
+          "data": {
+            "device": "Bluetooth Device"
+          }
+        }
+      }
+    },
+    "services": {
+      "reconnect": {
+        "name": "Reconnect Device",
+        "description": "Reconnect to a specific Bluetooth device.",
+        "fields": {
+          "entity_id": {
+            "name": "Entity ID",
+            "description": "The entity ID of the device to reconnect."
+          }
+        }
+      }
+    }
+  }
+  
